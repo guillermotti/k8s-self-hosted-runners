@@ -1,0 +1,7 @@
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: Runner
+metadata:
+  name: repo-runner
+spec:
+  repository: kcd-guatemala/k8s-self-hosted-runners
+  env: []
